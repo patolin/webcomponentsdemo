@@ -1,0 +1,35 @@
+<html>
+    <head>
+        <title>WebComponent demo</title>
+        <script src="mi_componente.js"></script>
+        <script src="checkbox.js"></script>
+        <script src="actions.js"></script>
+        <link rel="stylesheet" href="./style.css">
+    </head>
+    <body>
+        <h2>Ejemplos checkbox</h2>
+        <p>
+            <mi-checkbox></mi-checkbox>
+        </p>
+        <p>
+            <mi-checkbox label="Label via atributo" id="mi_checkbox"></mi-checkbox>
+        </p>
+        <p>
+            <mi-checkbox label="Label y checked via atributo" checked="checked" id="mi_checkbox_1"></mi-checkbox>
+        </p>
+        <h2>Ejemplos mi_componente</h2>
+        <p>
+            <mi-componente id="comp_id_1"></mi-componente>
+        </p>
+        <p>
+            <mi-componente _titulo="hola hola nuevo componente" id="comp_id_2"></mi-componente>
+        </p>
+
+        <h2>Botones de interacción externa</h2>
+        <p>
+            <input type="button" onclick="chgColor()" value="Titulos" />
+            <input type="button" onclick="chgCheckbox()" value="Checkbox" />
+        </p>
+            
+    </body>
+</html>
